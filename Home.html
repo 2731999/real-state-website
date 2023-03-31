@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real estate website</title>
+    <link rel="stylesheet" href="Style.css">
+    <!-- <link rel="stylesheet" href="media.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h4><i class="bi bi-house-door-fill"></i>Home</h4>
+            <div class="right-box">
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Language</a></li>
+                    <!-- <li><a href="#">Property</a></li> -->
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+                <div class="box">
+                    <i class="bi bi-person-fill"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="cont-bx">
+                <h1>Mordern<br>House</h1>
+                <p>3 Bedrooms, 1 Kitchen, 2 Bathrooms</p>
+                <div class="weather">
+                    <h6>42 *C<span>Very Hot</span></h6>
+                </div>
+                <div class="btns1">
+                    <i class="bi bi-arrow-left" id="btn_left"></i>
+                    <i class="bi bi-arrow-right" id="btn_right"></i>
+                </div>
+                <div class="img-bx">
+                    <div class="cards">
+                        <img src="./Static/BG-2.jpg" alt="">
+                    </div>
+                    <div class="cards">
+                        <img src="./Static/BG-3.jpg" alt="">
+                    </div>
+                    <div class="cards">
+                        <img src="./Static/BG-4.jpg" alt="">
+                        <h5 id="h5">+</h5>
+                    </div>
+                </div>
+                <div class="bar1">
+                    <div class="icon-box">
+                        <button><i class="bi bi-house-door-fill"></i></button>
+                        <button><i class="bi bi-star-fill"></i></button>
+                        <button><i class="bi bi-tv-fill"></i></button>
+                    </div>
+                    <div class="select">
+                        <div class="card">
+                            <h5>City</h5>
+                            <input type="text" value="TORONTO">
+                            <input type="text" value="CANADA">
+                        </div>
+                        <div class="card">
+                            <h5>People</h5>
+                            <input type="text" id="people" value="4 person">
+                            <button id="Less">Less</button>
+                            <button id="More">More</button>
+                        </div>
+                        <div class="card">
+                            <div class="leftbox">
+                                <h5>CHECK IN</h5>
+                                <div class="date">
+                                    <h3 id="checkin_data">Sellect date</h3>
+                                    <input type="date" id="checkin" value="2023-03-01">
+                                    <i class="bi bi-calendar"></i>
+                                </div>
+                                <button id="checkin_less">Less</button>
+                                <button id="checkin_more">More</button>
+                            </div>
+                            <div class="rightbox">
+                                <h5>CHECK OUT</h5>
+                                <div class="date">
+                                    <h3 id="checkout_data">Sellect date</h3>
+                                    <input type="date" id="checkout" value="2023-03-01">
+                                    <i class="bi bi-calendar"></i>
+                                </div>
+                                <button id="checkout_less">Less</button>
+                                <button id="checkout_more">More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div class="map">
+        <div class="address-box">
+            <div class="location">
+                <h3>Location</h3>
+                <h4>Toronto houses</h4>
+            </div>
+            <i class="bi bi-fullscreen-exit"></i>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369106.7269766043!2d-79.65825286757617!3d43.717898980816436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sin!4v1680265407564!5m2!1sen!2sin"
+            width="2200" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="home">
+        <div class="title-button">
+            <h2>Explore more houses</h2>
+            <button> See all<i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="home-box">
+            <div class="card">
+                <img src="./Static/2.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="cont">
+                        <h4>Toronto</h4>
+                        <p>Canada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Static/5.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="cont">
+                        <h4>Brampton</h4>
+                        <p>Canada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Static/4.jpg">
+                <div class="content">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="cont">
+                        <h4>North York</h4>
+                        <p>Canada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Static/download.jpg">
+                <div class="content">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="cont">
+                        <h4>Hamilton</h4>
+                        <p>Canada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Static/3.jpg">
+                <div class="content">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="cont">
+                        <h4>Ottawa</h4>
+                        <p>Canada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>TEMPLATE</h2>
+        <div class="box">
+            <div class="img-box">
+                <img src="./Static/6.jpg" alt="">
+            </div>
+            <div class="const-box">
+                <h6><span>Our Services</span></h6>
+                <h2>Your comfort <br> Is our top priority</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quis?</p>
+                <ul>
+                    <li>Premium House</li>
+                    <li>Best comfort</li>
+                    <li>Payble amount</li>
+                    <li>Everything nearby</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <footer2>
+        <h4><i class="bi bi-house-door-fill"></i>Home</h4>
+    </footer2>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

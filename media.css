@@ -1,0 +1,136 @@
+@media screen and (max-width: 1321px) {
+    header {
+        width: 90%;
+    }
+
+    .home {
+        width: 90%
+    }
+}
+
+@media screen and (max-width: 971px) {
+    header .content .cont_bx {
+        width: 110%;
+    }
+
+    footer {
+        width: 91%;
+    }
+
+    footer .box .img-box img {
+        width: 97%;
+        margin-top: 0px;
+        margin-right: 39px;
+    }
+
+    footer .box .const-box {
+        margin-top: 17px;
+        margin-left: -16px;
+    }
+
+    footer .box .const-box h6 {
+        margin-left: 90px;
+        font-size: 50px;
+    }
+
+    footer .box .const-box ul {
+        margin-left: 123px;
+    }
+
+    footer .box .const-box p {
+        margin-left: 40px;
+    }
+
+    footer .box .const-box h2 {
+        margin-left: 22px;
+    }
+
+    footer .box .const-box h6 {
+        margin-left: 29px;
+    }
+
+    header .content .cont-bx .select .card:nth-child(3) .date h3 {
+        font-size: 20px;
+    }
+
+    header .content .cont-bx .select .card:nth-child(3) .date h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    header {
+        overflow: hidden;
+    }
+
+    header .content .cont-bx {
+        width: 126%;
+        margin-left: -40px;
+    }
+
+    header .content .cont-bx .select .card input {
+        font-size: 28px;
+    }
+
+    header .content .cont-bx .select .card button {
+        font-size: 17px;
+    }
+
+    header .content .cont-bx .select .card:nth-child(3) .date h3 {
+        font-size: 29px;
+    }
+
+    header .content .cont-bx .select {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    header .content .cont-bx .select .card {
+        width: 48%;
+    }
+
+    header .content .cont-bx .select .card:nth-last-child(1) {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    header .content .cont-bx .select .card:nth-child(3) .date {
+        font-size: 20px;
+    }
+
+    .home .home-box {
+        width: 93%;
+        flex-wrap: wrap;
+    }
+
+    .home .title-button {
+        margin-left: 147px;
+        margin-top: 18px;
+    }
+
+    footer .box {
+        flex-direction: column;
+    }
+
+    footer .box .img-box img {
+        width: 100%;
+    }
+
+    footer .box .const-box h2 {
+        margin-left: 155px;
+    }
+
+    footer .box .const-box h6 {
+        margin-left: 109px;
+    }
+
+    .map .address-box h4 {
+        font-size: 13px;
+    }
+
+    .map .address-box {
+        width: 200px;
+        height: 38px;
+    }
+}
+
