@@ -2,7 +2,7 @@
 #### This is a real estate website created using HTML, CSS, and JavaScript. It provides a platform for users to view and search for properties that are available for sale or rent.
 
 ### Credits
-This website was created by [Your Name] using the following technologies:
+This website was created by Abhishek kumar using the following technologies:
 HTML
 CSS
 JavaScript
